@@ -78,3 +78,39 @@ a{
     border-radius: 2px;
     background: rgb(237, 230, 230);
 }
+
+@media (max-width:767px){
+    
+.input{
+    width: 200px;
+    top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    outline: none;
+    margin-right: 2px;
+    border: 1px solid #000;
+}
+
+.btn{
+    width: auto ;
+    padding: 10px;
+    top: 51px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+a{
+    width: auto ;
+    top: 51px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid #000;
+    text-decoration: none;
+    margin-left: 2px;
+    color: #000;
+    border-radius: 2px;
+    background: rgb(237, 230, 230);
+}
+
+}
