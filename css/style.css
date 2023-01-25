@@ -2,46 +2,79 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h1{
-    font-size: 50px;
-    text-align: center;
+ol{
+    margin-top: 100px;
+    outline: none;
+    font-weight: bolder;
 }
-.container{
-    width: 500px;
-    height: 40px;
-    margin: 0 auto;
-    margin-top: 20px;
+.form{
+    width: 100%;
+    margin: 20px auto;
     display: flex;
-    margin-bottom: 20px;   
-}
-input{
-    width: 300px;
-border-radius: 10px;
-padding-left: 10px;
-font-size: 17px;
-border:none;
-outline:none;
-    height: 40px;
-    box-shadow:0 0 5px blue inset;
-}
-.btn{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    font-size: 19px;
-    border:none;
-    outline:none;
-    width: 100px;
-    height: 40px;
-    color:white;
-    background-color: blue;
-    border:2px solid white;
-    text-decoration: none;
 }
 li{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 100px;
+    margin: 10px auto;
+    overflow: auto;
+}
+.input{
+    width: 400px;
+    top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    outline: none;
+    margin-right: 2px;
+}
+.btn{
+    width: auto ;
+    padding: 10px;
+    top: 51px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+
+}
+.remove{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     text-align: center;
-    font-size: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    width: auto ;
+    padding: 10px;
+    top: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #000;
+    text-decoration: none;
+    margin-left: 2px;
+    color: #000;
+    border-radius: 2px;
+    background: rgb(237, 230, 230);
 }
